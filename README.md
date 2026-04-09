@@ -2,13 +2,13 @@
 
 # Iris
 
-**Software Engineer & Maker**
+**Software Engineer &middot; Maker &middot; AI Developer**
 
-I am a developer based in India with a focus on firmware, web development, and game design.
+I am a developer based in India focusing on firmware, web development, game design, and artificial intelligence. I actively host and run local AI models, with upcoming plans to train my own custom architectures.
 
 <br />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&pause=1000&color=333333&center=true&vCenter=true&width=500&lines=Firmware+Engineering;Web+Development;Game+Design)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&pause=1000&color=333333&center=true&vCenter=true&width=500&lines=Firmware+Engineering;Web+Development;Game+Design;Applied+AI)](https://git.io/typing-svg)
 
 </div>
 
@@ -37,6 +37,8 @@ I am a developer based in India with a focus on firmware, web development, and g
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
 </p>
 
 ### Frameworks & Tools
@@ -49,6 +51,7 @@ I am a developer based in India with a focus on firmware, web development, and g
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Chromium-4285F4?style=for-the-badge&logo=chromium&logoColor=white" alt="Chromium" />
 </p>
 
 <br />
