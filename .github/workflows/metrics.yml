@@ -7,6 +7,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
 
   base-stats:
@@ -15,6 +18,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.base.svg
           base: header, repositories, metadata
           plugin_lines: yes
@@ -26,12 +30,14 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.activity.svg
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 10
           plugin_activity_days: 14
-          plugin_activity_filter: all
+          plugin_activity_visibility: public
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
   languages:
     runs-on: ubuntu-latest
@@ -39,6 +45,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.languages.svg
           base: ""
           plugin_languages: yes
@@ -53,6 +60,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.habits.svg
           base: ""
           plugin_habits: yes
@@ -67,6 +75,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.achievements.svg
           base: ""
           plugin_achievements: yes
@@ -79,6 +88,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.stars.svg
           base: ""
           plugin_stargazers: yes
@@ -90,6 +100,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           filename: github/metrics.recent.svg
           base: ""
           plugin_notable: yes
