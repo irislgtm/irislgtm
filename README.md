@@ -14,18 +14,18 @@ I am a developer based in India with a focus on firmware, web development, and g
 
 <br />
 
-## ?? Projects
+## Projects
 
 | Project | Stack | Status | Description |
 |:---|:---|:---:|:---|
-| **Ergographia** | TypeScript, React, Electron | ?? Active | Factory automation game emphasizing node-based logic. |
-| **Stasis CNC Router** | C++, Arduino, GRBL | ? In Progress | 3-axis CNC router built for Hack Club Stasis (May 2026). |
-| **Stasis Combat Robot** | C++, ESP32 | ? In Progress | WiFi/BLE controlled combat robot. |
-| **Stasis Laser Engraver** | C++, CoreXY | ?? Planned | CoreXY-based laser engraver. |
+| **Ergographia** | TypeScript, React, Electron | Active | Factory automation game emphasizing node-based logic. |
+| **Stasis CNC Router** | C++, Arduino, GRBL | In Progress | 3-axis CNC router built for Hack Club Stasis (May 2026). |
+| **Stasis Combat Robot** | C++, ESP32 | In Progress | WiFi/BLE controlled combat robot. |
+| **Stasis Laser Engraver** | C++, CoreXY | Planned | CoreXY-based laser engraver. |
 
 <br />
 
-## ?? Technical Stack
+## Technical Stack
 
 ### Languages
 <p>
@@ -53,7 +53,7 @@ I am a developer based in India with a focus on firmware, web development, and g
 
 <br />
 
-## ?? GitHub Metrics
+## GitHub Metrics
 
 <div align="center">
 
@@ -72,7 +72,7 @@ I am a developer based in India with a focus on firmware, web development, and g
 
 <br />
 
-## ?? Contact
+## Contact
 
 <p>
   <a href="https://github.com/irislgtm">
@@ -86,13 +86,16 @@ I am a developer based in India with a focus on firmware, web development, and g
 ---
 
 <details>
-<summary><b>?? GitHub Actions Metrics Configuration</b></summary>
+<summary><b>GitHub Actions Metrics Configuration</b></summary>
 
 <br>
 
 Create .github/workflows/metrics.yml in your profile repository with the following configuration. Each job generates one of the SVG files referenced above.
 
-You will need a METRICS_TOKEN secret in your repo for data gathering. Give it ead:user and ead:org; add epo only if you want private activity or private repositories included. The workflow below uses the built-in GITHUB_TOKEN to write the generated SVGs back to the repo.
+You will need a METRICS_TOKEN secret in your repo for data gathering. Give it 
+ead:user and 
+ead:org; add 
+epo only if you want private activity or private repositories included. The workflow below uses the built-in GITHUB_TOKEN to write the generated SVGs back to the repo.
 
 \\\yaml
 name: Metrics
