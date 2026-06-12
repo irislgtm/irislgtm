@@ -2,26 +2,12 @@
 
 # Iris
 
-**Software Engineer &middot; Maker &middot; AI Developer**
+**Software Engineer &middot; Maker**
 
-I am a developer based in India focusing on firmware, web development, game design, and artificial intelligence. I actively host and run local AI models, with upcoming plans to train my own custom architectures.
-
-<br />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&pause=1000&color=333333&center=true&vCenter=true&width=500&lines=Firmware+Engineering;Web+Development;Game+Design;Applied+AI)](https://git.io/typing-svg)
+I'm a developer from India working on firmware, web development, and game design.
 
 </div>
 
-<br />
-
-## Projects
-
-| Project | Stack | Status | Description |
-|:---|:---|:---:|:---|
-| **Ergographia** | TypeScript, React, Electron | Active | Factory automation game emphasizing node-based logic. |
-| **Stasis CNC Router** | C++, Arduino, GRBL | In Progress | 3-axis CNC router built for Hack Club Stasis (May 2026). |
-| **Stasis Combat Robot** | C++, ESP32 | In Progress | WiFi/BLE controlled combat robot. |
-| **Stasis Laser Engraver** | C++, CoreXY | Planned | CoreXY-based laser engraver. |
 
 <br />
 
