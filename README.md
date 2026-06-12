@@ -2,7 +2,7 @@
 
 # Iris
 
-**Software Engineer &middot; Maker**
+**Software Engineer**
 
 I'm a developer from India working on firmware, web development, and game design.
 
